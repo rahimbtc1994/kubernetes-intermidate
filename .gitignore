@@ -1,0 +1,51 @@
+k8s_vm/*
+
+# Ignore Kubernetes YAML files (optional)
+*.yaml
+!k8s/*.yaml  # Allow tracking specific YAML files in the k8s directory
+
+# Kubernetes secrets and sensitive data
+*.crt
+*.key
+*.env
+*.kubeconfig
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Helm charts and generated manifests
+charts/
+*.tgz
+values.yaml
+
+# Kustomize build outputs
+kustomize_build/
+
+# Docker artifacts
+.Dockerfile.swp
+**/docker-compose.override.yml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Terraform (if used with Kubernetes)
+.terraform/
+*.tfstate
+*.tfvars
+
+# Miscellaneous
+node_modules/
+coverage/
+.envrc
+*.bak
+
+# Ignore kubectl cache
+~/.kube/cache/
+~/.kube/http-cache/
+
+# Ignore K9s configurations (optional)
+~/.config/k9s/
