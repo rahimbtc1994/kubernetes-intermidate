@@ -48,4 +48,12 @@
 - Create a Civo Cluster # TODO
 - Create a GKE cluster  # TODO | the best among cloud provider
 
-# 
+# Resources
+
+## Namespace
+- A manner to regroup resources
+- There are 4 default namespaces
+- it's not a security role/policy
+
+## Pod
+- The smallest deployable unit in k8s
