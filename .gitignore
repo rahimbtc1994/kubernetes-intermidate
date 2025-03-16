@@ -1,7 +1,7 @@
 k8s_vm/*
 
 # Ignore Kubernetes YAML files (optional)
-*.yaml
+# *.yaml
 !k8s/*.yaml  # Allow tracking specific YAML files in the k8s directory
 
 # Kubernetes secrets and sensitive data

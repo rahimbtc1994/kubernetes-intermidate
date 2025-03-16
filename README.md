@@ -35,3 +35,15 @@
 3. CSI : Storage
 
 ### CNCF (Cloud Native Comppute Foundation) landscape ?
+
+# Setup
+- Installing docker, docker-desktop and devbox
+- Copy the devbox of the https://github.com/sidpalas/devops-directive-kubernetes-course course (i start from scratch, so i only needed the devbox.json and devbox.lock, don't forget the gcloud folder)
+- Create the env using : devbox shell
+- We are using go-task (a Go task runner program for automation, using Taskfile.yaml)
+- Setup a KinD simple local cluster (support multiple nodes, as containers)
+    1. install completion (to auto-complete task name)
+    2. generate config
+    3. create cluster
+- Create a Civo Cluster # TODO
+- Create a GKE cluster  # TODO | the best among cloud provider
