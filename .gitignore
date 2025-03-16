@@ -1,5 +1,6 @@
 k8s_vm/*
 
+bin/
 # Ignore Kubernetes YAML files (optional)
 # *.yaml
 !k8s/*.yaml  # Allow tracking specific YAML files in the k8s directory
